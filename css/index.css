@@ -213,10 +213,9 @@ nav{
 /* ------------------------ */
 aside.menu{
     position: fixed; /* Hace que el aside sea fijo en la pantalla */
-    left: -320px; /* Lo fija oculto de la pantalla */
+    left: -330px;
     top: 0;
-    bottom: 0;
-    width: 320px;
+    width: 330px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -238,6 +237,10 @@ aside.menu.activo {
 }
 .menu h2{
     font-size: var(--lg);
+    height: 80px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    margin: 0;
 }
 .menu-title{
     display: flex;
@@ -246,7 +249,7 @@ aside.menu.activo {
     padding: 0 20px;
     background-color: var(--text-input-field);
     border-bottom: 1px solid var(--very-ligth-grey);
-    height: 80px;
+    height: auto;
     box-sizing: border-box;
 }
 .categories{
